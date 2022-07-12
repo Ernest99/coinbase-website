@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Payments</title>
+    <link rel="icon" href="assets/img/1.jpeg">
+    <!------------Bootstap CSS------------>
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
+    <!----X-------Bootstap CSS------X----->
+    <!----------Font Awesome CSS---------->
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.css">
+    <!----X-----Font Awesome CSS----X----->
+    <!-----------Google font----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+    <!---X-------Google font-------X--->
+    <!-------Owl Carousel CSS-------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <!--X----Owl Carousel CSS----X--->
+    <!-------------Custom CSS------------->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body>
+    <!--==========Payment============-->
+    <div class="mt-4 container px-md-3 mb-md-4">
+        <div class="form_container">
+            <button class="back" onclick="history.back()"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back to page</button>
+            <h2 class="text-center mb-3">Payment</h2>
+            <form class="row g-3" action="http://localhost:8000/api/payment" method="POST">
+                <div class="col-md-6 mt-3">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" name="first_name" id="firstName">
+                </div>
+                <div class="col-md-6 mt-3">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" name="last_name" id="lastName">
+                </div>
+                <div class="col-12 mt-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="user@example.com">
+                </div>
+                <div class="col-12 mt-3">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" name="phone_number" id="phone_number" placeholder="+233 123456789">
+                </div>
+                <div class="col-12 mt-3">
+                    <label for="amount" class="form-label">$ Amount Paid</label>
+                    <input type="number" class="form-control" name="amount" id="amount" placeholder="500">
+                </div>
+                <div class="mt-3">
+                    <div class="col-12">
+                        <button type="submit" class="payment">Make payment</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--==========Payment============-->
+
+
+
+
+    <script src="assets/vendor/jquery/jquery.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+    <!----X-----Bootstrap JS---X----->
+    <!----------Font Awesome JS---------->
+    <script src="assets/vendor/font-awesome/js/all.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

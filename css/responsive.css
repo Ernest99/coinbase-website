@@ -1,0 +1,61 @@
+@media only screen and (max-width:1007px) {
+    #home h2 {
+        font-size: 40px;
+    }
+    #home .hero {
+        position: relative;
+        top: 150px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    #email-form form {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:609px) {
+    .nav-buttons button .text {
+        display: none;
+    }
+    .nav-buttons button {
+        height: 37px;
+        width: 40px;
+        margin-top: 10px;
+        border: none !important;
+        outline: none !important;
+        background: var(--g-color);
+        color: var(--w-color);
+    }
+}
+
+@media only screen and (max-width:543px) {
+    .page-padding {
+        padding: 0px 12px;
+    }
+}
+
+@media only screen and (max-width:459px) {
+    #home h2 {
+        font-size: 35px;
+    }
+    #home .hero {
+        position: relative;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width:387px) {
+    #page-navigator .c-btn,
+    #page-navigator .p-btn {
+        height: 50px;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    #page-navigator .nav-container {
+        top: 120px;
+    }
+}

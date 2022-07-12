@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*==========Variables============*/
+
+:root {
+    --w-color: #ffffff;
+    --g-color: #DDC95B;
+    --b-color: #000000;
+    --t-color: #00000028;
+    --d-color: #40382E;
+    --dl-color: #dfdddd;
+    --font: 'Poppins', sans-serif;
+}
+
+
+/*====X=====Variables=======X====*/
+
+
+/*==========Main Nav============*/
+
+.navbar {
+    background: var(--w-color);
+    box-shadow: 0px 3px 8px var(--t-color);
+    font-family: var(--font);
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.navbar .navbar-brand {
+    color: var(--b-color);
+    font-size: 23px;
+}
+
+.navbar .nav-link {
+    color: var(--b-color);
+}
+
+.navbar .navbar-toggler {
+    outline: none !important;
+    border: none !important;
+}
+
+.navbar .active {
+    color: var(--g-color) !important;
+}
+
+.payment {
+    height: 35px;
+    width: 150px;
+    border: none !important;
+    outline: none !important;
+    background: var(--g-color);
+    color: var(--w-color);
+    margin-left: 20px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+
+/*====X=====Main Nav=======X====*/
+
+
+/*==========Home============*/
+
+#home .carousel-caption {
+    top: -40px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+#home h2 {
+    color: var(--w-color);
+    font-size: 70px;
+    font-family: var(--font);
+    text-transform: uppercase;
+}
+
+#home span {
+    color: var(--g-color);
+}
+
+#home .get-started {
+    height: 50px;
+    width: 130px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px;
+    background: var(--g-color);
+    color: var(--w-color);
+    font-family: var(--font);
+}
+
+#home .join {
+    height: 50px;
+    width: 130px;
+    border: 1px solid var(--g-color);
+    outline: none;
+    border-radius: 5px;
+    margin: 10px;
+    background: transparent;
+    color: var(--w-color);
+    font-family: var(--font);
+}
+
+
+/*===X======Home========X===*/
+
+
+/* ==========Navigation buttons============ */
+
+.nav-buttons {
+    position: fixed;
+    top: 60%;
+    z-index: 100;
+}
+
+.nav-buttons button {
+    height: 37px;
+    width: 100px;
+    margin-top: 10px;
+    border: none !important;
+    outline: none !important;
+    background: var(--g-color);
+    color: var(--w-color);
+}
+
+.nav-buttons button .text {
+    padding-left: 3px;
+}
+
+
+/* X=========Navigation buttons===========X */
+
+
+/*==========Email Button============*/
+
+#email-form .email-btn {
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    border-radius: 70px;
+    margin: 30px;
+    color: var(--g-color);
+    font-size: 23px;
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    top: 84%;
+    box-shadow: 0px 7px 13px var(--t-color);
+}
+
+#email-form {
+    position: fixed;
+    right: 0;
+    top: 14%;
+    margin: 30px;
+    font-family: var(--font);
+    z-index: 100;
+}
+
+#email-form form {
+    background: var(--w-color);
+    padding: 10px;
+    border-radius: 7px;
+    width: 400px;
+    box-shadow: 0px 7px 13px var(--t-color);
+    display: none;
+}
+
+#email-form form input {
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    font-family: var(--font);
+    margin-top: 10px;
+    background: var(--dl-color);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+
+#email-form form textarea {
+    width: 100%;
+    padding-left: 10px;
+    font-family: var(--font);
+    margin-top: 10px;
+    background: var(--dl-color);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+
+
+/*===X======Email Button========X===*/
+
+
+/*==========About============*/
+
+#about {
+    padding: 120px 0px;
+    font-family: var(--font);
+}
+
+#about span {
+    color: var(--g-color);
+}
+
+#about h2 {
+    font-display: var(--font);
+}
+
+#about .readmore,
+#about .readless {
+    height: 40px;
+    width: 150px;
+    border: none;
+    outline: none;
+    background: var(--g-color);
+    color: var(--w-color);
+    font-family: var(--font);
+}
+
+.more {
+    display: none;
+}
+
+.readless {
+    display: none;
+}
+
+.hide-more .readmore {
+    display: none;
+}
+
+.hide-more .readless {
+    display: initial;
+}
+
+.hide-less .readless {
+    display: none;
+}
+
+.hide-less .readmore {
+    display: initial;
+}
+
+
+/*===X======About========X===*/
+
+
+/*==========Services============*/
+
+#services {
+    padding: 100px 0px;
+    background: var(--d-color);
+}
+
+#services h2 {
+    font-family: var(--font);
+    color: var(--w-color);
+}
+
+#services span {
+    color: var(--g-color);
+}
+
+#services .view {
+    height: 40px;
+    width: 150px;
+    border: none;
+    outline: none;
+    color: var(--w-color);
+    background: var(--g-color);
+    font-family: var(--font);
+}
+
+#services .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#services .card .card-title {
+    font-size: 18px;
+}
+
+#services .card a {
+    color: var(--b-color);
+    text-decoration: none;
+}
+
+
+/*===X======Services========X===*/
+
+
+/*==========Testimonials============*/
+
+#testimonials {
+    padding: 120px 0px;
+    font-family: var(--font);
+}
+
+#testimonials h2 {
+    color: var(--g-color);
+}
+
+#testimonials .testimonial-container {
+    max-width: 700px;
+    margin: auto;
+}
+
+
+/*===X======Testimonials========X===*/
+
+
+/*==========Contact============*/
+
+#contact {
+    padding: 70px 0px;
+    background: var(--d-color);
+    font-family: var(--font);
+    color: var(--w-color);
+}
+
+#contact .title {
+    color: var(--g-color);
+}
+
+#contact input {
+    height: 40px;
+}
+
+#contact .send {
+    height: 40px;
+    width: 40px;
+    border: none !important;
+    outline: none !important;
+    background: var(--g-color);
+    color: var(--w-color);
+}
+
+#contact ul li {
+    list-style: none;
+    padding: 8px 0px;
+}
+
+#contact a {
+    color: var(--w-color) !important;
+    text-decoration: none !important;
+}
+
+
+/*===X======Contact========X===*/
+
+
+/* ==========Page Navigator=========== */
+
+#page-navigator {
+    background: url('../assets/img/slider-img/2.jpg') no-repeat center/cover;
+    height: 100vh;
+}
+
+#page-navigator .nav-container {
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+    top: 170px;
+    box-shadow: 0px 8px 19px #00000088;
+    padding: 20px;
+    background: var(--w-color);
+    border-radius: 7px;
+}
+
+#page-navigator .c-btn,
+#page-navigator .p-btn {
+    height: 50px;
+    width: 130px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px;
+    background: var(--g-color);
+    color: var(--w-color);
+    font-family: var(--font);
+}
+
+
+/* ===X======Page Navigator=======X=== */
+
+
+/*==========Footer============*/
+
+footer {
+    font-family: var(--font);
+    font-size: 18px;
+    background: var(--w-color);
+    padding: 8px 0px;
+}
+
+
+/*===X======Footer========X===*/
+
+
+/*==========Payment===========*/
+
+.form_container {
+    background: #f8f8f8;
+    padding: 30px 20px;
+    font-family: var(--font);
+}
+
+.form_container .payment {
+    background: var(--g-color) !important;
+    color: var(--w-color);
+    margin-left: 0px !important;
+    height: 40px;
+    border: none !important;
+    outline: none !important;
+}
+
+.form_container .back {
+    height: 35px;
+    width: 150px;
+    border: none !important;
+    outline: none !important;
+    background: var(--g-color);
+    color: var(--w-color);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.jumbotron {
+    max-width: 500px;
+    margin: 40px auto;
+    font-family: var(--font);
+}
+
+.jumbotron .title {
+    font-size: 35px;
+}
+
+.back_to_home {
+    height: 38px;
+    width: 100%;
+    border: none !important;
+    outline: none !important;
+    font-size: 18px;
+    background: var(--g-color);
+    border-radius: 5px;
+    color: var(--w-color);
+}
+
+
+/*===X======Payment======X====*/
