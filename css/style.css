@@ -262,21 +262,21 @@
 
 /*==========Services============*/
 
-#services {
+#products {
     padding: 100px 0px;
     background: var(--d-color);
 }
 
-#services h2 {
+#products h2 {
     font-family: var(--font);
     color: var(--w-color);
 }
 
-#services span {
+#products span {
     color: var(--g-color);
 }
 
-#services .view {
+#products .view {
     height: 40px;
     width: 150px;
     border: none;
@@ -286,18 +286,18 @@
     font-family: var(--font);
 }
 
-#services .card-body {
+#products .card-body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#services .card .card-title {
+#products .card .card-title {
     font-size: 18px;
 }
 
-#services .card a {
+#products .card a {
     color: var(--b-color);
     text-decoration: none;
 }
@@ -469,3 +469,32 @@ footer {
 
 
 /*===X======Payment======X====*/
+
+
+/* ======= coming soon css styling */
+
+.soon_container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soon_box{
+    width: 100%;
+    max-width: 350px;
+    padding: 1em;
+}
+.soon_box img{
+    width: 100%;
+    max-width: 400px;
+}
+.soon_text{
+    text-align: center;
+    padding-top: 1em;
+    font-family: var(--font);
+}
+.soon_text h1{
+    font-family: var(--font);
+}
