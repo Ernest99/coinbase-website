@@ -17,7 +17,10 @@
     --font: 'Poppins', sans-serif;
 }
 
-
+.logo img{
+    width: 100%;
+    max-width: 900px !important;
+}
 /*====X=====Variables=======X====*/
 
 
@@ -366,12 +369,17 @@
 /* ==========Page Navigator=========== */
 
 #page-navigator {
-    background: url('../assets/img/slider-img/2.jpg') no-repeat center/cover;
+    width: 100%;
+    background: url('../assets/img/cashew_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
 #page-navigator .nav-container {
-    max-width: 400px;
+    width: 100%;
+    max-width: 500px;
     margin: auto;
     position: relative;
     top: 170px;
@@ -384,11 +392,10 @@
 #page-navigator .c-btn,
 #page-navigator .p-btn {
     height: 50px;
-    width: 130px;
+    width: 200px;
     border: none;
     outline: none;
     border-radius: 5px;
-    margin: 10px;
     background: var(--g-color);
     color: var(--w-color);
     font-family: var(--font);
