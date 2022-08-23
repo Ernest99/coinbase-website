@@ -484,9 +484,12 @@ footer {
     align-items: center;
     justify-content: center;
 }
+.details{
+    padding: 2rem 0;
+}
 .benefit h1{
     color: var(--dl-color);
-    font-size: 55px;
+    font-size: 4rem;
     font-family: var(--font);
 }
  .details p{
@@ -496,4 +499,23 @@ footer {
 .details h2{
     font-family: var(--font);
     padding: 15px 0px;
+}
+.benefit_btn{
+    text-align: center;
+    font-family: var(--font);
+}
+
+.benefit_btn a:nth-child(1){
+    padding: 10px 20px;
+    background: var(--g-color);
+    color: var(--w-color);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.benefit_btn a:nth-child(2){
+    padding: 10px 20px;
+    border: 1px solid var(--g-color);
+    color: var(--b-color);
+    border-radius: 5px;
+    margin-right: 10px;
 }
