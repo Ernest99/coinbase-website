@@ -285,8 +285,15 @@
     color: var(--w-color);
     background: var(--g-color);
     font-family: var(--font);
+    
 }
-
+.pro_list{
+    background: var(--w-color) !important;
+}
+#products .view_2{
+    margin-bottom: 15px;
+    margin-right: 8px;
+}
 #products .card-body {
     display: flex;
     justify-content: center;
@@ -518,4 +525,8 @@ footer {
     color: var(--b-color);
     border-radius: 5px;
     margin-right: 10px;
+}
+.cat{
+    color: var(--b-color);
+    padding-bottom: 20px;
 }
