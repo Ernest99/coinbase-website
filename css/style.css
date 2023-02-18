@@ -263,21 +263,21 @@
 
 /*==========Services============*/
 
-#products {
+#Service {
     padding: 100px 0px;
     background: var(--d-color);
 }
 
-#products h2 {
+#Services h2 {
     font-family: var(--font);
     color: var(--w-color);
 }
 
-#products span {
+#Service span {
     color: var(--g-color);
 }
 
-#products .view {
+#Service .view {
     height: 40px;
     width: 150px;
     border: none;
@@ -290,22 +290,22 @@
 .pro_list{
     background: var(--w-color) !important;
 }
-#products .view_2{
+#Service .view_2{
     margin-bottom: 15px;
     margin-right: 8px;
 }
-#products .card-body {
+#Service .card-body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#products .card .card-title {
+#Service .card .card-title {
     font-size: 18px;
 }
 
-#products .card a {
+#Service .card a {
     color: var(--b-color);
     text-decoration: none;
 }
