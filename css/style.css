@@ -5,6 +5,12 @@
     outline: none !important;
 }
 
+/* Mapping */
+.map_container{
+    width: 80px;
+    height: 80px;
+    margin: 10px 0px;
+}
 
 /*==========Variables============*/
 
