@@ -4,7 +4,19 @@
     box-sizing: border-box;
     outline: none !important;
 }
-
+.coming_soon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back_btn{
+    color: #fff;
+}
+.back_btn:hover{
+    text-decoration: none;
+    color: var(--w-color);
+}
 /* Mapping */
 .map_container{
     width: 80px;
